@@ -9,7 +9,7 @@ The main goal is to build a scalable cloud data pipeline capable of handling raw
 
  # Architecture
 
-Data Ingestion (Bronze Layer)
+# 1 Data Ingestion (Bronze Layer)
 
 Source: AdventureWorks CSV files (Products, Customers, Sales, Returns, Territories, Calendar).
 
@@ -17,7 +17,7 @@ Stored in Azure Data Lake Storage (ADLS Gen2).
 
 Configuration handled using git.json, mapping dataset names to sink folders and files.
 
-Data Transformation (Silver Layer)
+# 2 Data Transformation (Silver Layer)
 
 Applied using PySpark/Notebooks (silver_layer_refer.ipynb).
 
@@ -25,7 +25,7 @@ Cleansed, validated, and standardized data.
 
 Joins and transformations to prepare data for analytics.
 
-Data Modeling (Gold Layer)
+# 3 Data Modeling (Gold Layer)
 
 Created SQL Views using Synapse Serverless SQL Pools.
 
