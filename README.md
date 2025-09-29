@@ -1,14 +1,13 @@
 # Azure-Data-Pipeline-Hub
 
-📌 # Project Overview
+ # Project Overview
 
 This project demonstrates an end-to-end Azure Data Engineering pipeline using the AdventureWorks dataset. It follows the medallion architecture (Bronze → Silver → Gold) to ingest, transform, and model data for analytics and reporting.
 
 The main goal is to build a scalable cloud data pipeline capable of handling raw data ingestion, transformation, and consumption-ready data for BI tools.
 
 
-
-🏗️ # Architecture
+ # Architecture
 
 Data Ingestion (Bronze Layer)
 
@@ -50,7 +49,7 @@ gold.territories
 
 
 
-⚙️ # Tech Stack
+ # Tech Stack
 
 Azure Data Lake Storage (ADLS Gen2) – Raw/Silver/Gold data layers
 
@@ -64,7 +63,8 @@ Power BI / Reporting Tools – Data consumption layer
 
 SQL, Python, JSON
 
-📊 Data Flow (Medallion Architecture)
+
+# Data Flow (Medallion Architecture)
 
 Bronze (Raw) → Silver (Cleansed) → Gold (Business-ready)
 
@@ -76,7 +76,7 @@ Gold Layer: SQL Views created in Synapse (Create Views Gold.sql).
 
 
 
-🚀 Key Features
+# Key Features
 
 ✅ Automated data ingestion from GitHub/CSV sources.
 
@@ -90,7 +90,7 @@ Gold Layer: SQL Views created in Synapse (Create Views Gold.sql).
 
 
 
-📈 # Example Use Cases
+ # Example Use Cases
 
 Sales performance tracking by region & time.
 
@@ -102,7 +102,7 @@ Territory-based reporting for business insights.
 
 
 
-🔮 # Future Enhancements
+ # Future Enhancements
 
 Add CI/CD pipeline using Azure DevOps/GitHub Actions.
 
@@ -111,7 +111,7 @@ Implement Delta Lake for improved ACID transactions.
 Deploy ML models (Predictive Analytics) on top of Gold layer data.
 
 
-👨‍💻 # Author
+ # Author
 
 # Mohammad Shoaib
 💡 Exploring Data Engineering | Data Science | Machine Learning | Generative AI
